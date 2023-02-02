@@ -15,8 +15,9 @@ nav {
     position: fixed;
     top: 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 2rem;
+    column-gap: 2rem;
     padding: 0 1rem;
     border-bottom: 2px solid #282828;
     background-color: black;
@@ -27,6 +28,10 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
+}
+
+nav a:not(:first-child):hover {
+    color: #b1b1b1;
 }
 
 section {

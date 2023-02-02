@@ -36,6 +36,10 @@ nav a {
     text-decoration: none;
 }
 
+nav a:not(:first-child):hover {
+    color: #b1b1b1;
+}
+
 section {
     padding: 0 2rem;
     border-bottom: 2px solid #282828;
@@ -50,7 +54,7 @@ section {
     width: min(20rem, 50vmin);
     border-radius: 50%;
     /*background: radial-gradient(circle at top left, #00AE37, #007109);*/
-    background-image: url("/shuttle/images/ship_moon_background.jpg");
+    background-image: url("/Shutte/images/ship_moon_background.jpg");
     background-size: cover;
 }
 
@@ -174,21 +178,14 @@ section {
 
 
 .footer {
-    background-color: white;
-    height: 3rem;
     display: flex;
-    justify-content: end;
     align-items: center;
+    justify-content: end;
+    height: 4rem;
+    width: 100%;
+    background-color: white;
+    padding: 0 1rem;
     border-top: 2px solid #282828;
     background-color: black;
     box-shadow: 0 5px 10px black;
 }
-
-
-.footer a{
-    padding-right:1.1rem ;
-    color:white;
-   
-}
-
-
