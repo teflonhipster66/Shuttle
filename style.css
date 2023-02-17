@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 
 * {
     box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding-top: 4rem;
     background-color: #1e1e1e;
-    font-family: "Barlow";
+    font-family: "Be Vietnam";
     line-height: 1.4;
     color: white;
 }
@@ -23,10 +23,10 @@ nav {
     top: 0;
     display: flex;
     align-items: center;
-    column-gap: 2rem;
-    padding: 0 1rem;
+    column-gap: 5rem;
+    padding: 0 3rem;
     border-bottom: 2px solid #282828;
-    background-color: black;
+    background-color: #1e1e1e;
     box-shadow: 0 5px 20px black;
     flex-wrap: wrap;
 }
@@ -98,6 +98,10 @@ section {
     font-size: 1.25rem;
 }
 
+#banner p {
+    color: #7A7979;
+}
+
 #banner h2, #testimonials h2, #contact h2 {
     font-size: 3rem;
     text-align: center;
@@ -139,7 +143,7 @@ section {
     padding: 4rem;
     font-size: 2rem;
     text-align: start;
-    font-family: "Barlow";
+    font-family: "Be Vietnam";
 }
 
 #contact button {
@@ -149,12 +153,12 @@ section {
 }
 
 #contact h2, #contact h6 {
-    font-family: "Barlow";
+    font-family: "Be Vietnam";
     margin: 1rem 0;
 }
 
 #contact input, #contact button, #contact textarea {
-    font-family: "Barlow";
+    font-family: "Be Vietnam";
 }
 
 #contact input, #contact button {
@@ -174,6 +178,7 @@ section {
     height: 6rem;
     background: transparent;
     color: white;
+    border-radius: 6px;
 }
 
 
